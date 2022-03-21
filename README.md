@@ -29,7 +29,7 @@ The resulting training weights will be saved as a file named My_Weights.pth unde
 
 ### File Descriptions
 
-My_Model.py defines the DQN model architecture
-My_DQN_Agent.py defines how the agent takes actions based on the policy and learns based on feedback from the environment
-Navigation.ipynb runs the environemt and trains the agent. This is the main code to solve the environment
-My_Weights.pth contains the weights for the final DQN
+- My_Model.py defines the DQN model architecture
+- My_DQN_Agent.py defines how the agent takes actions based on the policy and learns based on feedback from the environment
+- Navigation.ipynb runs the environemt and trains the agent. This is the main code to solve the environment
+- My_Weights.pth contains the weights for the final DQN
