@@ -3,11 +3,14 @@
 
 ### Learning Algorithym
 
-In this project the environment is solve by using the DQN Reinforcement Learning Algorithym. The DQN takes the state as input and generates the action value as per the current policy. 
-Then the agent receives the 
+In this project the environment is solve by using the DQN Reinforcement Learning Algorithym. The DQN takes the state as input and predicts  the action value as per the current policy in order to maximize the expected reward for all future states with the current policy. 
+Then the agent takes the action and receives a reward and the next state from the environment. This information is used to update the weights in the DQN to better match predictions with observations and the iteration continues and the target average reward is reached. 
+This algorithym is also enhanced with experience replay to randomize state-action-reward tuples in order to prevent biasing the DQN towards correlated state-action pairs. This also enables to benefit from rare occurances. 
 
-1. The agent receives a state vector from the environment
-1. 
+
+### Deep Q-Network Architecture
+
+
 
 #### Learning Algorithms
 
