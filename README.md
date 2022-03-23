@@ -57,6 +57,18 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ![image](https://user-images.githubusercontent.com/66205537/159740147-9062bbeb-50e4-45d2-bd2d-7dece060f8b7.png)
  
+ 
+### Downmload the Unity Environment
+
+For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
+
+Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+Then, place the file in the p1_navigation/ folder in the course GitHub repository, and unzip (or decompress) the file.
+ 
 ### File Descriptions
 
 - My_Model.py defines the DQN model architecture
