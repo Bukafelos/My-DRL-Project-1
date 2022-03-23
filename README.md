@@ -23,9 +23,30 @@ The task is episodic, and in order to solve the environment, the trained agent m
 
 ### Instructions
 
-I made this project in the workspace provided by Udacity. The Unity Environment was already installed in the workspace. So it is sufficient to copy all files to the workspace and open the files Navigation.ipynb and run the code cells. 
+To set up your python environment to run the code in this repository, follow the instructions below.
 
-The resulting training weights will be saved as a file named My_Weights.pth under the same path. 
+Create (and activate) a new environment with Python 3.6.
+
+Linux or Mac:
+conda create --name drlnd python=3.6
+source activate drlnd
+Windows:
+conda create --name drlnd python=3.6 
+activate drlnd
+Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+
+Install the box2d environment group by following the instructions here.
+Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+
+git clone https://github.com/udacity/Value-based-methods.git
+cd Value-based-methods/python
+pip install .
+Create an IPython kernel for the drlnd environment.
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+![image](https://user-images.githubusercontent.com/66205537/159739047-c0aa423c-8882-450d-a006-09211cae4eb0.png)
+
+ 
 
 ### File Descriptions
 
